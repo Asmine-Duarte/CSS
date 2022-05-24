@@ -1,0 +1,33 @@
+body
+{
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1
+{
+    background-color: lightslategray;
+    color: lightgray;
+    text-align: center;
+    font-size: 28px;
+}
+h2 
+{
+    color: darkslategray;
+}
+h3
+{
+    color: slategray;
+}
+ul
+{
+    color: dimgray;
+}
+li
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p
+{
+    color: rgb(77, 69, 69);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

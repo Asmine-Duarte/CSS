@@ -1,0 +1,73 @@
+div{
+    background-color: rgb(7, 136, 14);
+    margin: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+h1#principal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: darkorange;
+    background-color: black;
+    border: 5px dashed rgb(44, 146, 4) ; 
+}
+
+div.agrupamento{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(41, 13, 197);
+    background-color: pink;
+    border: 3px solid purple;
+    margin: 10px;
+    padding: 10px;
+}
+
+div.bloco1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: brown;
+    color: white;
+    border: 2px solid rgb(2, 34, 10);
+    margin: 20px;
+    padding: 10px;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+}
+div.bloco2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:yellowgreen ;
+    color: darkred;
+    border: 2px solid rgb(7, 105, 60);
+    margin: 20px;
+    padding: 10px;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+}
+
+div.personalizado{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Arial, sans-serif;
+    background-color: aquamarine;
+    color: tomato;
+    border: 2px dashed blue;
+    margin: 20px;
+    padding: 20px;
+}
+div.personalizado:hover{
+    color: white;
+    background-color: black;
+}
+
+div.pseudo > span{
+    display: none;
+}
+div.pseudo:hover > span{
+    display: block;
+}
+
+h3::selection{
+    color: blue;
+    background-color: yellow;
+}

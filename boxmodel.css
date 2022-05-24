@@ -1,0 +1,96 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-bottom: 60 px;
+    margin-left: 60px;
+    border-style: groove;
+    border-width: 2px;
+    border-color: cyan;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+h1{
+    background-color: violet;
+    width: 200px;
+    height: 50px;
+    margin: 50px;
+    border: 2px groove dimgray;
+    padding: 10px 20px;
+    text-align: center;
+}
+p{
+    display: inline;/*altera a propriedade do elemento html de block-level para inline level*/
+    background-color: bisque;
+
+}
+span{
+    display: block;
+    background-color: cadetblue;
+}
+.box1{
+    position: static;
+    background-color: darkorange;
+    width: 400px;
+    height: 50px;
+    top: 500px;
+    left: 500px;
+    
+}
+.box2{
+    position: relative;
+    background-color: cornflowerblue;
+    width: 400px;
+    height: 50px;
+    bottom: 40px;
+    left: 420px;
+}
+.box3{
+    background-color: brown;
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 1080px;
+}
+.box4{
+    background-color: rgb(139, 169, 196);
+    width: 400px;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    right: 0px;    
+}
+.box5{
+    background-color: rgb(91, 75, 189);
+    width: 400px;
+    height: 50px;
+    position: sticky;
+    bottom: 200px;
+    left: 150px;
+}
+.layer1{
+    position: relative;
+    background-color: darkgray;
+    width: 80px;
+    height: 80px;
+    bottom: 0px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.layer2{
+    position: relative;
+    background-color: rgb(170, 28, 28);
+    width: 80px;
+    height: 70px;
+    bottom: 20px;
+    left:50px ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
